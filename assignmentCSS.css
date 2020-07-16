@@ -1,0 +1,45 @@
+body{
+    font-family: cursive;
+    background-color: powderblue;
+    width: 80%;
+    
+}
+#headersection{
+    
+    border: 6px double darkblue;
+    padding-left: 60px;
+}
+#list{
+    width: 230px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: 2px solid indigo; 
+    background: radial-gradient(blue,white);
+    animation-name: sample;
+    animation-duration: 10s;
+    /* animation-delay: 3s; */
+}
+@keyframes sample{
+    from{
+        border-radius:0%;
+    }
+    to{
+        border-radius: 40%;
+    }
+}
+.pagefooter{
+    height: 80px;
+    width:230px;
+    margin-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: right;
+    padding-right: 10px;
+    clear: both;
+ 
+}
